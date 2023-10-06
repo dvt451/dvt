@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9e0df115.css",
+    "main.js": "./static/js/main.0515ebb4.js",
+    "static/media/project3.webp": "./static/media/project3.e7b31e46ab6c1b38e84b.webp",
+    "static/media/project2.webp": "./static/media/project2.1ab980d1bd527e19fe91.webp",
+    "static/media/project4.webp": "./static/media/project4.22edbb2c5f7a29fb622e.webp",
+    "static/media/project5.webp": "./static/media/project5.d8937d50313ccb33da35.webp",
+    "static/media/bio4.webp": "./static/media/bio4.eec53c777f6cdd58b626.webp",
+    "static/media/bio2.webp": "./static/media/bio2.9b4a8e86de15033fde39.webp",
+    "static/media/project1.webp": "./static/media/project1.0de3781b6edc8c7e1ddf.webp",
+    "static/media/Dvt 451.zip": "./static/media/Dvt 451.066ebbbb858aa980296c.zip",
+    "static/media/bg1.png": "./static/media/bg1.8334b2b19d989906810a.png",
+    "static/media/logo.png": "./static/media/logo.35de1bfc5f92f038d6e7.png",
+    "static/media/my-works.webp": "./static/media/my-works.b5a4a817d3976ed28037.webp",
+    "static/media/icon.svg": "./static/media/icon.4732ec8d0f2d830fb916568ba6a7b501.svg",
+    "index.html": "./index.html",
+    "static/media/icon2.webp": "./static/media/icon2.84df54a80e1a22fe9076.webp",
+    "main.9e0df115.css.map": "./static/css/main.9e0df115.css.map",
+    "main.0515ebb4.js.map": "./static/js/main.0515ebb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0df115.css",
+    "static/js/main.0515ebb4.js"
+  ]
+}
