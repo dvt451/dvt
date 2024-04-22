@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.538b8daf.css",
-    "main.js": "./static/js/main.20535f80.js",
+    "main.js": "./static/js/main.a016b787.js",
     "static/media/project2.webp": "./static/media/project2.1ab980d1bd527e19fe91.webp",
     "static/media/project6.png": "./static/media/project6.173ca62bc7ddaa86cdb2.png",
     "static/media/project4.webp": "./static/media/project4.22edbb2c5f7a29fb622e.webp",
-    "static/media/dvtgulp.zip": "./static/media/dvtgulp.f0f9d8000b41b2220f55.zip",
+    "static/media/dvtgulp.zip": "./static/media/dvtgulp.b23bad9615d15146791d.zip",
     "static/media/project5.webp": "./static/media/project5.d8937d50313ccb33da35.webp",
     "static/media/bio4.webp": "./static/media/bio4.eec53c777f6cdd58b626.webp",
+    "static/media/project7.png": "./static/media/project7.c6f91e0b7d832eb95ff6.png",
     "static/media/project3.webp": "./static/media/project3.72377c2835ffc3620eb1.webp",
-    "static/media/reactgulp.zip": "./static/media/reactgulp.16697362cbff59da2231.zip",
     "static/media/bio2.webp": "./static/media/bio2.9b4a8e86de15033fde39.webp",
+    "static/media/reactgulpv1.1.zip": "./static/media/reactgulpv1.1.34781867ba6cdee324f1.zip",
     "static/media/project1.webp": "./static/media/project1.0de3781b6edc8c7e1ddf.webp",
     "static/media/dvt451.zip": "./static/media/dvt451.82d137e70061a5ed3f59.zip",
     "static/media/bg1.png": "./static/media/bg1.8334b2b19d989906810a.png",
@@ -20,10 +21,10 @@
     "index.html": "./index.html",
     "static/media/icon2.webp": "./static/media/icon2.84df54a80e1a22fe9076.webp",
     "main.538b8daf.css.map": "./static/css/main.538b8daf.css.map",
-    "main.20535f80.js.map": "./static/js/main.20535f80.js.map"
+    "main.a016b787.js.map": "./static/js/main.a016b787.js.map"
   },
   "entrypoints": [
     "static/css/main.538b8daf.css",
-    "static/js/main.20535f80.js"
+    "static/js/main.a016b787.js"
   ]
 }
