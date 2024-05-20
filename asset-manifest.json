@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c277319c.css",
-    "main.js": "/static/js/main.780e9ee1.js",
+    "main.css": "/static/css/main.493c0ef5.css",
+    "main.js": "/static/js/main.119a21f2.js",
     "static/media/Project.mp4": "/static/media/Project.c7e8500a8b871ab20e33.mp4",
     "static/media/project2.webp": "/static/media/project2.1ab980d1bd527e19fe91.webp",
+    "static/media/project9.webp": "/static/media/project9.442cba60b04d2fc7b39d.webp",
     "static/media/project4.webp": "/static/media/project4.22edbb2c5f7a29fb622e.webp",
     "static/media/project5.webp": "/static/media/project5.d8937d50313ccb33da35.webp",
     "static/media/project3.webp": "/static/media/project3.72377c2835ffc3620eb1.webp",
+    "static/media/project8.webp": "/static/media/project8.fade295b32a399ae6cdc.webp",
     "static/media/project1.webp": "/static/media/project1.0de3781b6edc8c7e1ddf.webp",
     "static/media/work8.webp": "/static/media/work8.90093172288c889d0acc.webp",
     "static/media/project7.webp": "/static/media/project7.6d50e5b9a808174269d6.webp",
@@ -36,11 +38,11 @@
     "static/media/arrowClick..svg": "/static/media/arrowClick..7219a884818048edacbe.svg",
     "static/media/arrowPoint.svg": "/static/media/arrowPoint.5b3f3b5c07736388f143.svg",
     "index.html": "/index.html",
-    "main.c277319c.css.map": "/static/css/main.c277319c.css.map",
-    "main.780e9ee1.js.map": "/static/js/main.780e9ee1.js.map"
+    "main.493c0ef5.css.map": "/static/css/main.493c0ef5.css.map",
+    "main.119a21f2.js.map": "/static/js/main.119a21f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c277319c.css",
-    "static/js/main.780e9ee1.js"
+    "static/css/main.493c0ef5.css",
+    "static/js/main.119a21f2.js"
   ]
 }
