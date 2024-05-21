@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.493c0ef5.css",
-    "main.js": "/static/js/main.119a21f2.js",
-    "static/media/Project.mp4": "/static/media/Project.c7e8500a8b871ab20e33.mp4",
+    "main.css": "/static/css/main.5569145d.css",
+    "main.js": "/static/js/main.633003a7.js",
     "static/media/project2.webp": "/static/media/project2.1ab980d1bd527e19fe91.webp",
     "static/media/project9.webp": "/static/media/project9.442cba60b04d2fc7b39d.webp",
     "static/media/project4.webp": "/static/media/project4.22edbb2c5f7a29fb622e.webp",
@@ -10,39 +9,19 @@
     "static/media/project3.webp": "/static/media/project3.72377c2835ffc3620eb1.webp",
     "static/media/project8.webp": "/static/media/project8.fade295b32a399ae6cdc.webp",
     "static/media/project1.webp": "/static/media/project1.0de3781b6edc8c7e1ddf.webp",
-    "static/media/work8.webp": "/static/media/work8.90093172288c889d0acc.webp",
     "static/media/project7.webp": "/static/media/project7.6d50e5b9a808174269d6.webp",
     "static/media/project6.webp": "/static/media/project6.2aae2eef1d774f70b011.webp",
-    "static/media/work15.webp": "/static/media/work15.05a894cc5e106df928ea.webp",
-    "static/media/work5.webp": "/static/media/work5.77891f11e13aa74d7c7b.webp",
-    "static/media/work3.webp": "/static/media/work3.842ac7da7cbb1fdeeac2.webp",
-    "static/media/work7.webp": "/static/media/work7.9605bae2f491d40cb1a3.webp",
-    "static/media/work18.webp": "/static/media/work18.beb31df5d41c9ae31e36.webp",
-    "static/media/work13.webp": "/static/media/work13.b0cfd5c18ff5aa008b14.webp",
-    "static/media/work2.webp": "/static/media/work2.0f648295cb4749fb2257.webp",
-    "static/media/work20.webp": "/static/media/work20.156a3b94fed41fdc82c4.webp",
-    "static/media/work14.webp": "/static/media/work14.5771411090a7ecaa7c13.webp",
-    "static/media/work6.webp": "/static/media/work6.4851f538b6f772b1d168.webp",
     "static/media/Cyborg.otf": "/static/media/Cyborg.2e3495caf68e104a86ae.otf",
-    "static/media/work10.webp": "/static/media/work10.a7b85edec80177b7de1f.webp",
-    "static/media/work9.webp": "/static/media/work9.99107e735f4c829b5d0d.webp",
-    "static/media/work12.webp": "/static/media/work12.699dda0f54fd65fae50b.webp",
-    "static/media/work17.webp": "/static/media/work17.e0866fe74b49366d8ae1.webp",
-    "static/media/work19.webp": "/static/media/work19.217b8b4abe9311868aeb.webp",
-    "static/media/work1.webp": "/static/media/work1.50c4f3fea96c8f2f39e5.webp",
     "static/media/Exo Space DEMO.ttf": "/static/media/Exo Space DEMO.b6096e5274189ebc352e.ttf",
-    "static/media/work4.webp": "/static/media/work4.cb248cacb9e03c01f43d.webp",
-    "static/media/work16.webp": "/static/media/work16.27067f39f7476e541803.webp",
-    "static/media/work11.webp": "/static/media/work11.4e10d07649c94ab64247.webp",
     "static/media/Cyborg.ttf": "/static/media/Cyborg.074aa61276a2a2f121a4.ttf",
     "static/media/arrowClick..svg": "/static/media/arrowClick..7219a884818048edacbe.svg",
     "static/media/arrowPoint.svg": "/static/media/arrowPoint.5b3f3b5c07736388f143.svg",
     "index.html": "/index.html",
-    "main.493c0ef5.css.map": "/static/css/main.493c0ef5.css.map",
-    "main.119a21f2.js.map": "/static/js/main.119a21f2.js.map"
+    "main.5569145d.css.map": "/static/css/main.5569145d.css.map",
+    "main.633003a7.js.map": "/static/js/main.633003a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.493c0ef5.css",
-    "static/js/main.119a21f2.js"
+    "static/css/main.5569145d.css",
+    "static/js/main.633003a7.js"
   ]
 }
