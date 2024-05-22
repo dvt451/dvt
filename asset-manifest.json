@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5569145d.css",
-    "main.js": "/static/js/main.633003a7.js",
+    "main.css": "/static/css/main.d8b1c9ec.css",
+    "main.js": "/static/js/main.8683dcce.js",
     "static/media/project2.webp": "/static/media/project2.1ab980d1bd527e19fe91.webp",
     "static/media/project9.webp": "/static/media/project9.442cba60b04d2fc7b39d.webp",
     "static/media/project4.webp": "/static/media/project4.22edbb2c5f7a29fb622e.webp",
@@ -14,14 +14,12 @@
     "static/media/Cyborg.otf": "/static/media/Cyborg.2e3495caf68e104a86ae.otf",
     "static/media/Exo Space DEMO.ttf": "/static/media/Exo Space DEMO.b6096e5274189ebc352e.ttf",
     "static/media/Cyborg.ttf": "/static/media/Cyborg.074aa61276a2a2f121a4.ttf",
-    "static/media/arrowClick..svg": "/static/media/arrowClick..7219a884818048edacbe.svg",
-    "static/media/arrowPoint.svg": "/static/media/arrowPoint.5b3f3b5c07736388f143.svg",
     "index.html": "/index.html",
-    "main.5569145d.css.map": "/static/css/main.5569145d.css.map",
-    "main.633003a7.js.map": "/static/js/main.633003a7.js.map"
+    "main.d8b1c9ec.css.map": "/static/css/main.d8b1c9ec.css.map",
+    "main.8683dcce.js.map": "/static/js/main.8683dcce.js.map"
   },
   "entrypoints": [
-    "static/css/main.5569145d.css",
-    "static/js/main.633003a7.js"
+    "static/css/main.d8b1c9ec.css",
+    "static/js/main.8683dcce.js"
   ]
 }
