@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8b1c9ec.css",
-    "main.js": "/static/js/main.8683dcce.js",
-    "static/media/project2.webp": "/static/media/project2.1ab980d1bd527e19fe91.webp",
+    "main.css": "/static/css/main.d78ddc73.css",
+    "main.js": "/static/js/main.b857a0f0.js",
     "static/media/project9.webp": "/static/media/project9.442cba60b04d2fc7b39d.webp",
     "static/media/project4.webp": "/static/media/project4.22edbb2c5f7a29fb622e.webp",
     "static/media/project5.webp": "/static/media/project5.d8937d50313ccb33da35.webp",
+    "static/media/project2.webp": "/static/media/project2.188f0d272569e30d9ed1.webp",
     "static/media/project3.webp": "/static/media/project3.72377c2835ffc3620eb1.webp",
     "static/media/project8.webp": "/static/media/project8.fade295b32a399ae6cdc.webp",
     "static/media/project1.webp": "/static/media/project1.0de3781b6edc8c7e1ddf.webp",
@@ -15,11 +15,11 @@
     "static/media/Exo Space DEMO.ttf": "/static/media/Exo Space DEMO.b6096e5274189ebc352e.ttf",
     "static/media/Cyborg.ttf": "/static/media/Cyborg.074aa61276a2a2f121a4.ttf",
     "index.html": "/index.html",
-    "main.d8b1c9ec.css.map": "/static/css/main.d8b1c9ec.css.map",
-    "main.8683dcce.js.map": "/static/js/main.8683dcce.js.map"
+    "main.d78ddc73.css.map": "/static/css/main.d78ddc73.css.map",
+    "main.b857a0f0.js.map": "/static/js/main.b857a0f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b1c9ec.css",
-    "static/js/main.8683dcce.js"
+    "static/css/main.d78ddc73.css",
+    "static/js/main.b857a0f0.js"
   ]
 }
