@@ -1,0 +1,40 @@
+.intro{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   z-index: 99;
+   background-color: var(--colWhite);
+   &.instant{
+      display: none;
+   }
+   svg{
+       position: absolute;
+       top: 0;
+       width: 100%;
+       height: calc(100% + toRem(300));
+       path{
+           fill: var(--colWhite);
+       }
+   }
+   p{
+       display: flex;
+       color: var(--colBlack);
+       font-size: toRem(38);
+       align-items: center;
+       position: absolute;
+       z-index: 1;
+       font-family: 'Unbounded';
+       font-weight: 300;
+       span{
+           display: block;
+           width: toRem(10);
+           height: toRem(10);
+           background-color: var(--colBlack);
+           border-radius: 50%;
+           margin-right: toRem(10);
+       }
+   }
+}

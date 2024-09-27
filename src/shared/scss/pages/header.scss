@@ -1,0 +1,65 @@
+//====================================================================================================
+.header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   height: toRem(65);
+   border-bottom: toRem(2) solid var(--colBlack);
+   padding-bottom: toRem(1);
+   background-color: var(--colWhite);
+   z-index: 10;
+   display: flex;
+   align-items: center;
+   @include adaptiveValue("gap", 40, 20);
+   &__logo{
+      width: toRem(62);
+      height: toRem(62);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--primary);
+      clip-path: polygon(12px 0%, calc(100% - 12px) 0%, 100% 12px, 100% 100%, calc(100% - 12px) 100%, 12px 100%, 0 100%, 0 0);
+      path{
+         fill: var(--colWhite);
+      }
+   }
+
+   .menu{
+      &__list{
+         display: flex;
+         align-items: center;
+         gap: toRem(60);
+         @include adaptiveValue("gap", 60, 15);
+      }
+      li{
+         position: relative;
+         overflow: hidden;
+         @media (any-hover: hover){
+            &:hover{
+               span{
+                  transform: translateY(-100%);
+               }
+            }
+         }
+         span{
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s;
+            @include adaptiveValue("font-size", 18, 16);
+            height: toRem(50);
+            
+
+            &:nth-child(2){
+               position: absolute;
+               width: 100%;
+               height: 100%;
+               top: 100%;
+               left: 0;
+               color: var(--primary);
+            }
+         }
+      }
+   }
+}
+//====================================================================================================

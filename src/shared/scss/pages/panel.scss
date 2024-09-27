@@ -1,0 +1,104 @@
+.panel{
+   width: 100%;
+   height: 100%;
+   // transform: translateX(toRem(100));
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-inline: toRem(30);
+   &__body{
+      transform: rotateY(-15deg) rotateX(7.5deg);
+      transform-style: preserve-3d;
+      @media (min-width:$tablet){
+         max-width: toRem(900);
+      }
+      width: 100%;
+      @include adaptiveValue("height", 500, 250,$maxWidthContainer,991.98);
+      position: relative;
+      @media (max-width:$tablet){
+         width: 100%;
+         height: toVW(950);
+      }
+      background-color: var(--colBlack);
+      border: toRem(2) solid var(--colBlack);
+   }
+   &__board{
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      animation: float 5s infinite 0s ease;
+      border: toRem(2) solid var(--colBlack);
+   }
+   &__header{
+      width: 100%;
+      height: toRem(50);
+      background-color: var(--primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      @include adaptiveValue("font-size", 25, 14);
+      font-weight: 600;
+      position: relative;
+   }
+
+   &Video__wrapper{
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      video{
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         left: 0;
+         object-fit: cover;
+      }
+   }
+}
+.swiper{
+   height: calc(100% - toRem(50));
+   width: 100%;
+}
+.preview-buttons{
+   position: absolute;
+   // top: 50%;
+   top: 0;
+   // transform: translateY(-50%);
+   @include adaptiveValue("font-size", 50, 30);
+   color: var(--primary);
+   @include adaptiveValue("width", 60, 30);
+   height: 100%;
+   background-color: #fff5;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   &:nth-child(1){
+      left: toRem(0);
+   }
+   &:nth-child(2){
+      right: toRem(0);
+   }
+}
+
+.swiper-pagination{
+   span{
+      width: toRem(10);
+      height: toRem(10);
+      background-color: #fff;
+      opacity: 1;
+   }
+   .swiper-pagination-bullet-active{
+      background-color: var(--primary);
+   }
+}
+
+@keyframes float {
+   0%,100%{
+      transform: translateZ(toRem(0)) translateX(toRem(0)) translateY(toRem(-2));
+   }
+   50%{
+      transform: translateZ(toRem(15)) translateX(toRem(-15)) translateY(toRem(-15));
+   }
+}

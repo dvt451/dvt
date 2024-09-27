@@ -1,0 +1,106 @@
+:root{
+   --dottSize: 10px;
+   --arrowSize: 150px;
+}
+.dott{
+   position: fixed;
+   left: calc(var(--dottSize) / -2);
+   top: calc(var(--dottSize) / -2);
+   display: inline-flex;
+   width: var(--dottSize);
+   height: var(--dottSize);
+   background-color: var(--primary);
+   border-radius: 50%;
+   z-index: 99;
+   pointer-events: none;
+   justify-content: center;
+   align-items: center;
+   &.lettalk-active{
+      display: none;
+   }
+   @media (max-width:$tablet){
+      display: none;
+   }
+   &.mix{
+      mix-blend-mode: difference;
+   }
+   span{
+      display: inline-block;
+      color: var(--colWhite);
+      scale: 0;
+      opacity: 0;
+      visibility: hidden;
+      font-size: toRem(18);
+   }
+   &.view{
+      background-color: transparent;
+      span{
+         scale: 1;
+         opacity: 1;
+         visibility: visible;
+      }
+   }
+}
+.cursor{
+   position: fixed;
+   z-index: 99;
+   pointer-events: none;
+   @media (max-width:$tablet){
+      display: none;
+   }
+   &__item{
+      position: relative;
+      width: 50px;
+      height: 50px;
+      transform: translate(-50%,-50%);
+      border-radius: 50%;
+      border: toRem(2) solid var(--primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s;
+   }
+   &.view{
+      .cursor__item{
+         background-color: var(--primary);
+         width: 150px;
+         height: 150px;
+      }
+   }
+   &.mix{
+      mix-blend-mode: difference;
+   }
+   &.lettalk-active{
+      .cursor__item{
+         width: toRem(150);
+         height: toRem(150);
+         background-color: var(--primary);
+         border-color: var(--colBlack);
+         box-shadow: toRem(0) toRem(0) toRem(30) var(--colBlack);
+      }
+   }
+}
+.arrow{
+   position: fixed;
+   left: calc(var(--arrowSize) / -2);
+   top: calc(var(--arrowSize) / -2);
+   width: var(--arrowSize);
+   height: var(--arrowSize);
+   z-index: 99;
+   display: inline-flex;
+   pointer-events: none;
+   justify-content: center;
+   align-items: center;
+   transition: font-size 0.3s;
+   opacity: 0;
+   visibility: hidden;
+   &.lettalk-active{
+      opacity: 1;
+      visibility: visible;
+      font-size: toRem(100);
+      color: #fff;
+   }
+}
+body *{
+   cursor: none;
+}
