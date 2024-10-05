@@ -26,9 +26,15 @@
       transform: translateZ(0) scale(1);
   }
 }
-.portfolio{
-   .portfolio__title{
-      @include adaptiveValue("font-size", 80, 35,991.98,320);
+h2{
+   text-align: center;
+   padding: toRem(100) toRem(0);
+   @include adaptiveValue("font-size", 80, 35,991.98,320);
+   font-weight: 600;
+   font-family: 'Unbounded';
+   span{
+      display: inline-block;
    }
+   transition: all 0.3s;
 }
 //========================================================================================================================================================

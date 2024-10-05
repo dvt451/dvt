@@ -4,6 +4,10 @@ export const MenuList = [
      href: '#portfolio',
    },
    {
+      title: 'Price',
+      href: '#price',
+    },
+   {
      title: 'Let’s talk',
      href: '#letstalk',
    },

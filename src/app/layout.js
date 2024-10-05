@@ -4,6 +4,7 @@ import '../shared/scss/style.scss'
 import Customcursor from '@/features/CustomCursor/Customcursor';
 import { AppWrapper } from '@/shared/hooks/ThemeContext';
 import Preloader from '@/widgets/Preloader/Preloader';
+import Header from '@/widgets/header/Header';
 
 
 export const metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
             <Customcursor />
          <div className='wrapper'>
             <Preloader />
+            <Header />
                {children}
          </div>
          </Smoothscroll>

@@ -4,13 +4,7 @@
    align-items: center;
    padding: toRem(100) 0;
    &__title{
-      text-align: center;
-      padding: toRem(100) toRem(0);
-      font-size: toRem(50);
-      @media (max-width: 31.75em){
-      }
-      font-weight: 600;
-      font-family: 'Unbounded';
+      line-height: normal;
    }
    &__body{
       width: 100%;

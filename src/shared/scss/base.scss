@@ -29,9 +29,9 @@
 	}
 }
 
-// .rub:after {
-// 	content: "₽";
-//  }
+.usd:before {
+	content: "$";
+ }
 
 // @extend %имя_шаблона;
 // Сніппет (SCSS): ex

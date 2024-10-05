@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Project from './project/Project'
 import {ProjectList} from '../../shared/ProjectList'
 import Modal from './modal/Modal'
+import TitleComponent from '@/features/TitleAnimation/TitleComponent'
 
 export default function ProjectsPreview() {
 
@@ -15,7 +16,9 @@ export default function ProjectsPreview() {
    return (
     <section id='portfolio' className={'portfolio'}>
       <div className='project-preview__container'>
-         <h2 className={'portfolio__title'}>Recent Projects</h2>
+         <h2 className={'portfolio__title'}>
+            <TitleComponent text={'Recent Projects'} />
+         </h2>
          <div className={'portfolio__body'}>
             {
                ProjectList.map((project,index)=>{
