@@ -102,5 +102,7 @@
    }
 }
 body *{
-   cursor: none;
+   @media (min-width:$tablet){
+      cursor: none;
+   }
 }

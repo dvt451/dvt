@@ -3,7 +3,7 @@ import Calculations from './Calculations'
 import TitleComponent from '@/features/TitleAnimation/TitleComponent'
 export default function Price() {
   return (
-    <div id='price' className='price'>
+    <section id='price' className='price'>
       <div className="price__container">
          <h2><TitleComponent text={'Price'}/></h2>
          <div className="price__content">
@@ -20,6 +20,6 @@ export default function Price() {
             </div>
          </div>
       </div>
-    </div>
+    </section>
   )
 }

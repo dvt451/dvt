@@ -9,17 +9,12 @@ export default function Calculations() {
      setInputValue(e.target.value); // Update the state with the new input value
    };
 
-   // Function to handle the calculation (you can add your logic here)
-   const handleCalculation = () => {
-     console.log(`Input value: ${inputValue}`);
-     // Add calculation logic here based on inputValue
-   };
-
    return (
      <div className='calculation'>
        <div className='calculation__top'>
          <div>
            <input
+             className='calc-input'
              type="number"
              value={inputValue}  // Bind input to state
              onChange={handleInputChange}  // Handle changes to input

@@ -1,0 +1,107 @@
+:root{
+   --borderColor: #000;
+}
+.admin__price{
+   h2{
+      padding-top: toRem(200);
+   }
+}
+.calc {
+   display: flex;
+   gap: toRem(100);
+   justify-content: space-between;
+   input{
+      &::-webkit-inner-spin-button{
+         appearance: none;
+      }
+      font-size: toRem(18);
+      outline: none;
+      &::after{
+         content:'px';
+      }
+      color: red;
+      width: 100%;
+      padding-block: toRem(10);
+      padding-inline: toRem(15);
+      border-top: toRem(1) solid var(--borderColor);
+      box-shadow: inset toRem(0) toRem(0) toRem(5) toRem(0) #0005;
+      &:focus{
+         box-shadow: toRem(0) toRem(0) toRem(5) toRem(0) #000;
+      }
+   }
+   h3{
+      font-size: toRem(50);
+      font-weight: 600;
+      margin-bottom: toRem(30);
+      padding: toRem(15);
+   }
+   // .calc__columns
+
+   &__column {
+      width: 100%;
+      height: 100%;
+      &:not(:last-child) {  
+         border-right: toRem(1) solid var(--borderColor);
+      }
+   }
+
+   &__layouts{
+      border: toRem(1) solid var(--borderColor);
+      li{
+         display: flex;
+         align-items: center;
+         span{
+            font-size: toRem(18);
+            padding-block: toRem(14.5);
+            width: toRem(50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: toRem(1) solid var(--borderColor);
+            border-right: toRem(1) solid var(--borderColor);
+         }
+      }
+   }
+
+   // .calc__values
+
+   &__values {
+      display: flex;
+      flex: 1 1 auto;
+      border: toRem(1) solid var(--borderColor);
+      height: 100%;
+      h3{
+         padding: toRem(15);
+      }
+   }
+
+   // .calc__list
+
+   &__list {
+      font-size: toRem(20);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+
+   // .calc__item
+
+   &__item {
+      padding-block: toRem(10);
+      padding-inline: toRem(15);
+      display: flex; 
+      gap: toRem(5);
+      border-top: toRem(1) solid var(--borderColor);
+      height: 100%;
+      background-color: #eee;
+      &.item-titles{
+         background-color: var(--primary);
+         color: #fff;
+      }
+   }
+
+   .result{
+      background-color: green;
+      color: #fff;
+   }
+}

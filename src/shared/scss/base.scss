@@ -5,11 +5,9 @@
 @import 'libs/cursor';
 @import 'libs/runningAnim';
 @import 'libs/preloader';
-@import 'pages/Eyestyling';
 // @import 'libs/tabs';
 // @import 'libs/Ordometer';
 @import 'base/lenis';
-@import "pages/Letstalk";
 
 // Сниппет (HTML): ibg (div картинкой и классами)
 [class*="-ibg"] {
@@ -32,6 +30,11 @@
 .usd:before {
 	content: "$";
  }
+ .amd::after {
+	content: "֏";
+ }
+ 
+
 
 // @extend %имя_шаблона;
 // Сніппет (SCSS): ex

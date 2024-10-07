@@ -91,7 +91,5 @@ $mobileSmall: em(479.98); // Телефоны S
 
 //========================================================================================================================================================
 // Pages
-@import "pages/home";
-@import 'pages/portfoliopage';
-@import 'pages/panel';
-@import 'pages/projectsPreview';
+@import "pages/home/home";
+@import "pages/admin/admin";
