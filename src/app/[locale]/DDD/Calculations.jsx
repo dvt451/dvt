@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 
 export default function Calculations() {
   const [inputValues, setInputValues] = useState({ value1: '', value2: '', value3: '', value4: '' }); // Store input values in an object
+  const _ = useAppContext()
 
-  const pricePerPixelsUSD = 0.01;
+  const pricePerPixelsUSD = _.projectCost;
   const figmaFeeUSD = 15;
   const rateUSD = 380;
 
   const pricePerPixelsAMD = pricePerPixelsUSD * rateUSD;
   const figmaFeeAMD = rateUSD * figmaFeeUSD;
-  const rateAMD = 1;
 
   // Calculate results
   const resultsUSD = Object.values(inputValues).reduce((acc, value) => {
@@ -19,10 +19,10 @@ export default function Calculations() {
   }, figmaFeeUSD);
 
   const resultsAMD = Object.values(inputValues).reduce((acc, value) => {
-    const numValue = parseFloat(value) || 0; // Parse input as float, default to 0
-    return acc + (numValue * pricePerPixelsAMD);
-  }, figmaFeeAMD);
-
+   const numValue = parseFloat(value) || 0; // Parse input as float, default to 0
+   return acc + (numValue * pricePerPixelsAMD); // Accumulate the product of numValue and pricePerPixelsAMD
+ }, - figmaFeeAMD); // Subtract figmaFeeAMD from the final accumulated result
+ 
   // Function to handle input change
   const handleInputChange = (e) => {
     const { name, value } = e.target; // Destructure name and value from the event
@@ -58,7 +58,7 @@ export default function Calculations() {
           <h3>USD {rateUSD}</h3>
           <ul className="calc__list">
             <li className="calc__item usd">{pricePerPixelsUSD}</li>
-            <li className="calc__item usd">{figmaFeeUSD}</li>
+            <li className="calc__item">+<span className='usd'>{figmaFeeUSD}</span></li>
             <li className="calc__item usd result">{resultsUSD.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')}</li>
           </ul>
         </div>
@@ -66,7 +66,7 @@ export default function Calculations() {
           <h3>AMD</h3>
           <ul className="calc__list">
             <li className="calc__item amd">{pricePerPixelsAMD.toFixed(1)}</li>
-            <li className="calc__item amd">{figmaFeeAMD}</li>
+            <li className="calc__item minus">-<span className='amd'>{figmaFeeAMD}</span></li>
             <li className="calc__item amd result">{resultsAMD.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, '.')}</li>
           </ul>
         </div>

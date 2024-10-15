@@ -1,15 +1,15 @@
-export const MenuList = [
-   {
-     title: 'Portfolio',
-     href: '#portfolio',
-   },
-   {
-      title: 'Price',
-      href: '#price',
-    },
-   {
-     title: 'Let’s talk',
-     href: '#letstalk',
-   },
- ];
- 
+// MenuList.js
+export const MenuList = (t) => [
+  {
+    title: t('Portfolio'),
+    href: '#portfolio',
+  },
+  {
+    title: t('Price'),
+    href: '#price',
+  },
+  {
+    title: t('Letstalk'),
+    href: '#letstalk',
+  },
+];

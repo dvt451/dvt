@@ -1,3 +1,6 @@
+body{
+   background-color: var(--colWhite);
+}
 .finger{
    animation: wobble 2.5s infinite;
    display: inline-block;

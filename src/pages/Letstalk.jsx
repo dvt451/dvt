@@ -2,9 +2,11 @@
 import GsapMagnetic from '@/features/GsapMagnetic';
 import WordShuffler from '@/features/WordShuffler';
 import { useAppContext } from '@/shared/hooks/ThemeContext';
+import { useTranslations } from 'next-intl';
 import React, { useEffect, useRef, useState } from 'react';
 
 export default function Letstalk() {
+   const t = useTranslations("Letstalk")
   const [ripplePosition, setRipplePosition] = useState({ x: 0, y: 0 });
   const [buttonActive, setButtonActive] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -183,12 +185,12 @@ export default function Letstalk() {
       <div className='letstalk__container'>
         <div className='letstalk__content'>
           <p className={!buttonActive ? 'letstalk__subtitle' : 'letstalk__subtitle layer-active'}>
-            Curious For More?
+            {t("CuriousForMore")}
           </p>
           <div className={!buttonActive ? 'letstalk__title' : 'letstalk__title layer-active'}>
-            Designing The
+            {t("DesigningThe")}
             <br />
-            Future Starts Here
+            {t("FutureStartsHere")}
           </div>
           <GsapMagnetic>
             <a
@@ -202,7 +204,7 @@ export default function Letstalk() {
               <span className='letstalk__link_text'>
                 <WordShuffler
                   buttonActive={buttonActive}
-                  text={shuffling ? "Let's talk →" : "Let's talk → "}
+                  text={shuffling ? `${t("Letstalk")} →` : `${t("Letstalk")} → `}
                   textColor='#000'
                   timeOffset={1}
                   mixCapital={true}
@@ -219,7 +221,7 @@ export default function Letstalk() {
             </a>
           </GsapMagnetic>
           <p className={!buttonActive ? 'letstalk__text' : 'letstalk__text layer-active'}>
-            The strategic development partner for businesses wanting to scale to higher levels. My Email:{' '}
+            {t("text")+' '}
             <a onMouseEnter={()=>{
                _.setMail(true)
                _.setTalkHover(true)

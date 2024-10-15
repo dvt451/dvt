@@ -13,6 +13,8 @@ export function AppWrapper({ children }) {
   const [talkHover, setTalkHover] = useState(false)
   const [mail,setMail] = useState(false)
 
+  const projectCost = 0.09
+
   const projectMouseEnter = ()=>{
       setProjectView(true)
   }
@@ -32,7 +34,8 @@ export function AppWrapper({ children }) {
     talkHover,
     setTalkHover,
     mail,
-    setMail
+    setMail,
+    projectCost
   };
 
   // Provide the context value to the children components

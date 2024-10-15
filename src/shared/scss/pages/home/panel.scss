@@ -19,8 +19,8 @@
          width: 100%;
          height: toVW(950);
       }
-      background-color: var(--colBlack);
-      border: toRem(2) solid var(--colBlack);
+      background-color: #101010;
+      border: toRem(2) solid #101010;
    }
    &__board{
       width: 100%;
@@ -36,7 +36,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #fff;
+      color: #FDFDFD;
       @include adaptiveValue("font-size", 25, 14);
       font-weight: 600;
       position: relative;
@@ -67,7 +67,7 @@
    top: 0;
    // transform: translateY(-50%);
    @include adaptiveValue("font-size", 50, 30);
-   color: var(--primary);
+   color: #101010;
    @include adaptiveValue("width", 60, 30);
    height: 100%;
    background-color: #fff5;

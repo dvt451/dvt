@@ -1,10 +1,13 @@
+import {useTranslations} from 'next-intl';
 
 export default function HeadContext() {
-   const text1 = `Hi there, I'm Davit`.split(' ');
-   const text2 = `Animated`.split('');
-   const text3 = `Websites with`.split('');
-   const highLitedText = "React and Next.js".split('');
-   const subText = "I am a software engineer with more than four years of experience. recognized as a practical and effective developer, experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within budget.".split(' ');
+   const t = useTranslations('HeadContext');
+
+   const text1 = t('text1').split(' ');
+   const text2 = t('text2').split('');
+   const text3 = t('text3').split('');
+   const highLitedText = t('highLitedText').split('');
+   const subText = t('subText').split(' ');
   return (
    <div className="head__context head-context">
    <p><span className='head-context__name'>

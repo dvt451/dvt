@@ -1,9 +1,11 @@
 'use client'
 import React, { useState } from 'react'
+import LangTitle from './LangTitle';
+import { useAppContext } from '@/shared/hooks/ThemeContext';
 
 export default function Calculations() {
-   const [inputValue, setInputValue] = useState(null);  // Store the input value
-
+   const [inputValue, setInputValue] = useState(0);  // Store the input value
+   const _ = useAppContext()
    // Function to handle input change
    const handleInputChange = (e) => {
      setInputValue(e.target.value); // Update the state with the new input value
@@ -22,7 +24,7 @@ export default function Calculations() {
            <span>px</span>
          </div>
        </div>
-       <div className="result">The Price: <span className='usd'>{inputValue && inputValue * 0.010 + 15}</span></div>
+       <div className="result"><LangTitle /> <span className='usd'>{inputValue && inputValue * _.projectCost + 15}</span></div>
      </div>
    );
 }

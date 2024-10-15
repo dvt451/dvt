@@ -106,7 +106,7 @@
             animation: animate 0.3s linear 0s forwards;
             opacity: 1;
             visibility: visible;
-            background-color: var(--colWhite);
+            background-color: #fdfdfd;
        }
    }
    @keyframes animate {
@@ -163,8 +163,8 @@
    }
    &__link{
       border-radius: toRem(124);
-      background: var(--colBlack);
-      border: toRem(2) solid var(--colBlack);
+      background: #101010;
+      border: toRem(2) solid #101010;
       @include adaptiveValue("margin-bottom", 77, 24,$containerWidth,393);
       @include adaptiveValue("font-size", 88, 35,$containerWidth,393);
       min-width: toRem(748);
@@ -176,10 +176,10 @@
       align-items: center;
       overflow: hidden;
       transition: all 0.3s;
-      color: var(--colWhite);
+      color: #fdfdfd;
       box-shadow: 0 0 .9375rem 0 var(--primary);
       @media (max-width:$tablet){
-         color: var(--colBlack);
+         color: #101010;
          min-width: 100%;
          @include adaptiveValue("min-height", 208, 120);
       }
@@ -189,11 +189,11 @@
          transition: all 0s;
       }
       &.layer-active{
-         color: var(--colBlack);
+         color: #101010;
          transition: all 0.1s;
-         background: var(--colBlack);
-      box-shadow: 0 0 .9375rem 0 var(--colBlack);
-      border: toRem(2) solid var(--colBlack);
+         background: #101010;
+      box-shadow: 0 0 .9375rem 0 #101010;
+      border: toRem(2) solid #101010;
       .letstalk__link_text{
                transition: all 0.8s;
             }
