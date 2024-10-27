@@ -1,6 +1,6 @@
-import TitleComponent from '@/features/TitleAnimation/TitleComponent'
 import React from 'react'
 import Calculations from './Calculations'
+import TitleComponent from '../features/TitleAnimation/TitleComponent'
 
 export default function page() {
   return (

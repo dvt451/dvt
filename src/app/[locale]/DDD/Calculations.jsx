@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { useAppContext } from '../shared/hooks/ThemeContext';
 
 export default function Calculations() {
   const [inputValues, setInputValues] = useState({ value1: '', value2: '', value3: '', value4: '' }); // Store input values in an object

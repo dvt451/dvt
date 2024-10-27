@@ -1,0 +1,29 @@
+html[lang="ru"]{
+   --font-family: 'Inter';
+   --font-family: system-ui,"Segoe UI","Roboto",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+   .price{
+      li{
+         &:first-child{
+            margin-top: toRem(10);
+         }
+         &:not(:last-child) {
+            margin-bottom: toRem(10);
+         }
+      }
+   }
+   .header{
+      @media (max-width: em(360)){
+          gap: toRem(10); 
+      }
+   }
+   .menu {
+      ul{
+         @include adaptiveValue("gap", 60, 10);
+         padding-right: toRem(10);
+      }
+      span{
+         @include adaptiveValue("font-size", 18, 14);
+
+      }
+   }
+}

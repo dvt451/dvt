@@ -1,20 +1,26 @@
-import Head from "@/pages/Head/Head";
-import Letstalk from "@/pages/Letstalk";
-import Price from "@/pages/Price/Price";
-import ProjectsPreview from "@/pages/ProjectsPreview/ProjectsPreview";
-import Preloader from '@/widgets/Preloader/Preloader';
+import Head from "./pages/Head/Head";
+import Letstalk from "./pages/Letstalk";
+import ProjectsPreview from './pages/ProjectsPreview/ProjectsPreview';
+import Price from './pages/Price/Price';
+import initTranslations from '../i18n';
+import Preloader from "./widgets/Preloader/Preloader";
+import TranslationsProvider from "./features/TranslationsProvider";
 
-export default function Home() {
+const i18nnamespaces = ['home']
 
-  return (
+export default async function Home({params: {locale}}) {
+      const {t,resources} = await initTranslations(locale, i18nnamespaces)
+      return (
       <>
-      <Preloader />
+      <TranslationsProvider resources={resources} locale={locale} namespaces={i18nnamespaces}>
+         <Preloader />
          <main>
-            <Head />
-            <ProjectsPreview />
-            <Price />
+            <Head t={t}/>
+            <ProjectsPreview t={t}/>
+            <Price t={t} />
             <Letstalk />
-          </main>
+         </main>
+      </TranslationsProvider>
       </>
   );
 }
