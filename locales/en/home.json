@@ -1,44 +1,43 @@
 {
-   "HeadContext": {
-      "text1": "Hi there, I'm Davit",
-      "text2": "Animated",
-      "text3": "Websites with",
-      "highLitedText": "React and Next.js",
-      "subText": "I am a software engineer with more than four years of experience. recognized as a practical and effective developer, experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within budget.",
-      "LatestProjectPreview": "Latest project preview"
-
-   },
-   "Header": {
-      "Portfolio": "Portfolio",
-      "Price": "Price",
-      "Letstalk": "Let’s talk"
-   },
-   "SelectLanguages": {
-      "en": "English",
-      "ru": "Russian"
-   },
-   "MainTitles": {
-      "RecentProjects": "Recent Projects"
-   },
-   "Price": {
-      "title": "Price",
-      "description": "To calculate the approximate price of your project write the height of your layout by pixels.",
-      "Inthispriceareincluded": "In this price are included:",
-      "Hovereffects": "Hover effects",
-      "Popups": "Pop ups",
-      "Accordions": "Accordions",
-      "Adaptive": "Adaptive",
-      "calcResultText": "Approximate price",
-      "Simplesliders": "Simple sliders"
-   },
-   "Other": {
-      "View": "View"
-   },
-   "Letstalk": {
-      "CuriousForMore": "Curious For More?",
-      "DesigningThe": "Designing The",
-      "FutureStartsHere": "Future Starts Here",
-      "Letstalk": "Let’s talk →",
-      "text": "The strategic development partner for businesses wanting to scale to higher levels. My Email: "
-   }
+	"HeadContext": {
+		"text1": "Hi there, I'm Davit",
+		"text2": "Animated",
+		"text3": "Websites with",
+		"highLitedText": "React.js",
+		"subText": "I am a software engineer with more than four years of experience. recognized as a practical and effective developer, experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within budget.",
+		"LatestProjectPreview": "Latest project preview"
+	},
+	"Header": {
+		"Portfolio": "Portfolio",
+		"Price": "Price",
+		"Letstalk": "Let’s talk"
+	},
+	"SelectLanguages": {
+		"en": "English",
+		"ru": "Russian"
+	},
+	"MainTitles": {
+		"RecentProjects": "Recent Projects"
+	},
+	"Price": {
+		"title": "Price",
+		"description": "To calculate the approximate price of your project write the height of your layout by pixels.",
+		"Inthispriceareincluded": "In this price are included:",
+		"Hovereffects": "Hover effects",
+		"Popups": "Pop ups",
+		"Accordions": "Accordions",
+		"Adaptive": "Adaptive",
+		"calcResultText": "Approximate price",
+		"Simplesliders": "Simple sliders"
+	},
+	"Other": {
+		"View": "View"
+	},
+	"Letstalk": {
+		"CuriousForMore": "Curious For More?",
+		"DesigningThe": "Designing The",
+		"FutureStartsHere": "Future Starts Here",
+		"Letstalk": "Let’s talk →",
+		"text": "The strategic development partner for businesses wanting to scale to higher levels. My Email: "
+	}
 }
