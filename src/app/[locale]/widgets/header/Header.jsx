@@ -4,12 +4,12 @@ import HeaderMenu from "./HeaderMenu";
 import Eye from "@/app/[locale]/pages/Eye";
 
 export default function Header() {
-  return (
-         <header className="header">
-            <Logo />
-            <HeaderMenu />
-            <Eye />
-            <Select />
-         </header>
-  )      
+	return (
+		<header className="header">
+			<Logo />
+			<HeaderMenu />
+			<Eye />
+			<Select />
+		</header>
+	)
 }
