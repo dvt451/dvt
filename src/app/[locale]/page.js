@@ -5,6 +5,7 @@ import ProjectsPreview from './pages/ProjectsPreview/ProjectsPreview';
 import initTranslations from '../i18n';
 import Preloader from "./widgets/Preloader/Preloader";
 import TranslationsProvider from "./features/TranslationsProvider";
+import Price from "./pages/Price/Price";
 
 const i18nnamespaces = ['home']
 
@@ -17,7 +18,7 @@ export default async function Home({ params: { locale } }) {
 				<main>
 					<Head t={t} />
 					<ProjectsPreview t={t} />
-					{/* <Price t={t} /> */}
+					<Price t={t} />
 					<Letstalk />
 				</main>
 			</TranslationsProvider>
