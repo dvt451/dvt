@@ -1,11 +1,5 @@
 export const ProjectList = [
-	{
-		title: "DStore",
-		src: '/projects/Dstore.webp',
-		color: '#00796a',
-		link: 'https://dstore-seven.vercel.app/',
-		date: '2024',
-	},
+
 	{
 		title: "Creedz",
 		src: '/projects/project1.webp',
@@ -18,6 +12,13 @@ export const ProjectList = [
 		src: '/projects/project2.webp',
 		color: '#142b0f',
 		link: 'https://proyect-brown.vercel.app/',
+		date: '2024',
+	},
+	{
+		title: "DStore",
+		src: '/projects/Dstore.webp',
+		color: '#00796a',
+		link: 'https://dstore-seven.vercel.app/',
 		date: '2024',
 	},
 	{

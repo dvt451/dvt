@@ -10,7 +10,6 @@ export default function HeaderMenu() {
 	const { t } = useTranslation();
 	const menuList = MenuList(t);
 	const isHomePage = pathname === '/' || pathname === '/ru';
-
 	return (
 		<nav className="header__menu menu">
 			<ul className="menu__list">

@@ -20,7 +20,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 				<AppWrapper>
 					<Smoothscroll>
 						<TranslationsProvider resources={resources} locale={locale} namespaces={i18nnamespaces}>
-							{/* <Customcursor /> */}
+							<Customcursor />
 							<div className='wrapper'>
 								<Header />
 								{children}
