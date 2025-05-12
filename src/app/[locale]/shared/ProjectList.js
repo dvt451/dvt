@@ -67,7 +67,7 @@ export const ProjectList = [
 		title: "Furniture",
 		src: '/projects/furniture.PNG',
 		color: '#e1e1e1',
-		link: 'https://barber-mocha.vercel.app/',
+		link: 'https://dvt-furniture.vercel.app/home.html',
 		date: '2022',
 	},
 ]
