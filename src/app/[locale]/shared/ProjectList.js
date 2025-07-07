@@ -1,5 +1,11 @@
 export const ProjectList = [
-
+	{
+		title: "Mr.ICE",
+		src: '/projects/mr.ice.webp',
+		color: '#af0e2f',
+		link: 'https://ice-red-rho.vercel.app/',
+		date: '2024',
+	},
 	{
 		title: "Creedz",
 		src: '/projects/project1.webp',
@@ -58,14 +64,14 @@ export const ProjectList = [
 	},
 	{
 		title: "Playlist",
-		src: '/projects/playlist.PNG',
+		src: '/projects/playlist.webp',
 		color: '#1d1b1c',
 		link: 'https://playlist-iota.vercel.app/',
 		date: '2022',
 	},
 	{
 		title: "Furniture",
-		src: '/projects/furniture.PNG',
+		src: '/projects/furniture.webp',
 		color: '#e1e1e1',
 		link: 'https://dvt-furniture.vercel.app/home.html',
 		date: '2022',
