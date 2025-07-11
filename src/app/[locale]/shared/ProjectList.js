@@ -4,13 +4,13 @@ export const ProjectList = [
 		src: '/projects/mr.ice.webp',
 		color: '#af0e2f',
 		link: 'https://ice-red-rho.vercel.app/',
-		date: '2024',
+		date: '2025',
 	},
 	{
 		title: "Creedz",
 		src: '/projects/project1.webp',
 		color: 'rgb(72, 73, 74)',
-		link: 'https://creedz.net',
+		link: 'https://creedz.vercel.app/',
 		date: '2024',
 	},
 	{
