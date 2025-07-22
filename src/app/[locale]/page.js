@@ -18,7 +18,7 @@ export default async function Home({ params: { locale } }) {
 				<main>
 					<Head t={t} />
 					<ProjectsPreview t={t} />
-					<Price t={t} />
+					{/* <Price t={t} /> */}
 					<Letstalk />
 				</main>
 			</TranslationsProvider>
