@@ -5,10 +5,6 @@ export const MenuList = (t) => [
 		href: '#portfolio',
 	},
 	{
-		title: t('Header.Price'),
-		href: '#price',
-	},
-	{
 		title: t('Header.Letstalk'),
 		href: '#letstalk',
 	},
